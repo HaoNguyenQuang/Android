@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        >
+        <ImageView
+            android:src="@drawable/anhnen_navigation"
+            android:id="@+id/imgnewTruyen"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            ></ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="Tên Truyện"
+        android:textSize="15dp"
+        android:id="@+id/textviewTentruyenNew"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+</LinearLayout>

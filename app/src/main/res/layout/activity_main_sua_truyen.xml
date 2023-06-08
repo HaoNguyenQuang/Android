@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainSuaTruyen">
+
+    <TextView
+        android:text="Sửa Truyện"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:id="@+id/edttentruyen"
+        android:hint="Tên Truyện"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:id="@+id/edtnoidung"
+        android:hint="Nội dung"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <Button
+
+        android:id="@+id/btnChonAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="55dp"
+        android:text="Chọn Ảnh" />
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/edtimg"
+        android:hint="Ảnh"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:id="@+id/btnSuaTruyen"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/mybutton"
+        android:text="Update Truyện"
+        app:backgroundTint="@null" />
+</LinearLayout>

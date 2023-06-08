@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainDangNhap">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="Đăng Nhập"
+        android:textColor="#2196F3"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:drawableRight="@drawable/ic_taikhoan"
+        android:id="@+id/taikhoan"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:hint="Tài khoản"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:id="@+id/matkhau"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Mật khẩu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/dangnhap"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Đăng nhập"
+        android:background="@drawable/mybutton"
+        app:backgroundTint="@null"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:id="@+id/dangky"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Đăng ký"
+        android:background="@drawable/mybutton"
+        app:backgroundTint="@null"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>

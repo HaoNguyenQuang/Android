@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainDangBai">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Đăng Bài"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:id="@+id/dbTenTruyen"
+        android:hint="Tên Truyện"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:id="@+id/dbNoiDung"
+        android:hint="Nội dung"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></EditText>
+
+    <Button
+        android:id="@+id/btnChonAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="55dp"
+        android:text="Chọn Ảnh" />
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/dbimg"
+        android:hint="Ảnh"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/dbdangbai"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Đăng Bài"
+        android:background="@drawable/mybutton"
+        app:backgroundTint="@null"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
